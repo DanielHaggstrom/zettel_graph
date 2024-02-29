@@ -7,7 +7,7 @@ from itertools import repeat
 resultado = {}
 
 # adquirimos todas las notas en un diccionario id: [tipo, contenido json]
-path = "D:\\Coding\\PyCharm Workspace\\zettel_graph\\venv\\json"
+path = "path to json data"
 todas = {}
 for file in os.listdir(path):
     id = file[:-5]
